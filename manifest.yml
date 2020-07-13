@@ -1,0 +1,17 @@
+modules:
+  macro:
+    - key: tic-tac-toe
+      function: main
+      title: Tic-tac-toe
+      description: Tic tac toe in confluence!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: 'ari:cloud:ecosystem::app/9a941d5b-e4b6-42cf-a232-3d7c13cfa747'
+  name: Tic-tac-toe
+permissions:
+  scopes:
+    - 'read:jira-user'
+    - 'read:confluence-props'
+    - 'write:confluence-props'
